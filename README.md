@@ -1,7 +1,7 @@
-Template: a full living systematic-review of interventions
+Sepsis treatment with antibiotics
 =================================
 **[Click here](
-http://openmetaanalysis.github.io/Template-a-full-living-systematic-review-of-interventions
+http://openmetaanalysis.github.io/Sepsis-treatment-with-antibiotics
 ) to see the meta-analysis.**
 
 **If you want to be notified of new trials being posted at ClinicalTrials, PubMed, or here:**
