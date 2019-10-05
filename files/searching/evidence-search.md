@@ -1,7 +1,7 @@
 # Evidence search
 
 ## Inclusion criteria
-Cohorts of [sepsis] that compare [antibtioics withing one hour] to antibiotics administered after one hour.
+Cohorts of [sepsis] that compare [antibiotics within one hour] to antibiotics administered after one hour.
 
 ## Reconciliation tables
 * [Comparison of included studies with prior systematic reviews](../reconciliation-tables)
