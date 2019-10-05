@@ -1,51 +1,35 @@
 # Evidence search
-(under construction)
+
 ## Inclusion criteria
-Randomized trials of [disease] that compare [intervention] to placebo.
+Cohorts of [sepsis] that compare [antibtioics withing one hour] to antibiotics administered after one hour.
 
 ## Reconciliation tables
-(under construction)
 * [Comparison of included studies with prior systematic reviews](../reconciliation-tables)
 
 ## PubMed
 ### Boolean term searching
 
-[supraventricular tachycardia AND Valsalva AND random\*](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&term=supraventricular%20tachycardia%20AND%20Valsalva%20AND%20random*)
-* Retrieves 5 articles in hand (100% sensitivity) (search 6/19/2017)
-* 12 total citations found (search results reviewed 6/x/2017; 0 additional studies found)
+Not searched
 
 ### Vector searching ('Related citations' search)
-(under construction)
-Seed articles: PMIDs [24589043,16625125,19696442,21572327,20048677,24717459,25375775,25651372](https://www.ncbi.nlm.nih.gov/pubmed/?term=24589043%2C+16625125+19696442+21572327+20048677+24717459+25375775+25651372)
-* [1370 citations](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=24589043,16625125,19696442,21572327,20048677,24717459,25375775,25651372)
-* 463 citations when above limited to years 2015 - 2017 (time period after Sterling meta-analysis)
-* 112 citations when above limited to years 2015 - 2017 (time period after Sterling meta-analysis) AND containing `hour*`
-  * [X additional articles found](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=15570651)
+Seed articles: PMIDs [16625125,21572327,20048677,24589043,25651372,19696442,24717459,25375775,30779916,31343474](https://www.ncbi.nlm.nih.gov/pubmed/?linkname=pubmed_pubmed&from_uid=16625125,21572327,20048677,24589043,25651372,19696442,24717459,25375775,30779916,31343474)
+* No addition studies identified
 
 ## ClinicalTrials.gov
 
-`supraventricular tachycardia AND Valsalva`
-* [1 citations](https://clinicaltrials.gov/ct2/results?term=supraventricular+tachycardia+AND+Valsalva&Search=Search) (search 6/19/2017)
-  * [NCT02216240](https://clinicaltrials.gov/ct2/show/NCT02216240) (PMID [27613170](https://www.ncbi.nlm.nih.gov/pubmed/27613170)) did not meet inclusion criteria
+Not searched
 
 ## Cochrane Central Register of Controlled Trials (CENTRAL)
 
-`supraventricular tachycardia AND Valsalva`
-* [1 citations](http://onlinelibrary.wiley.com/cochranelibrary/search?submitSearch=Go&searchRows%5B0%5D.searchCriterias%5B0%5D.fieldRestriction=title+abstract+keywords&searchRows%5B0%5D.searchCriterias%5B0%5D.term=hypertension) (search 6/19/2017)
-  * [http://onlinelibrary.wiley.com/doi/10.1002/14651858.CD005182/abstract](http://onlinelibrary.wiley.com/doi/10.1002/14651858.CD005182.pub4/full) (PMID [27613170](https://www.ncbi.nlm.nih.gov/pubmed/27613170)) did not meet inclusion criteria
+Not searched
 
 ## Cited reference searching
-(under construction)
+A Google Scholar alert for citations to the Ferrer article that contain "Adjusted mortality" is monitored 
 
 ### Identifying seminal studies that are the most highly cited
-Smith GD, Dyson K, Taylor D, Morgans A, Cantwell K. Effectiveness of the Valsalva Manoeuvre for reversion of supraventricular tachycardia. Cochrane Database Syst Rev. 2013 Mar 28;(3):CD009502. doi: 10.1002/14651858.CD009502.pub2. Review. Update in: Cochrane Database Syst Rev. 2015 PMID: [23543578](http://pubmed.gov/23543578).
- * [17 citations](https://scholar.google.com/scholar?cites=2217747907445562937&as_sdt=2005&sciodt=0,5&hl=en) (search 6/19/2017)
+Ferrer R, Martin-Loeches I, Phillips G, Osborn TM, Townsend S, Dellinger RP, Artigas A, Schorr C, Levy MM. Empiric antibiotic treatment reduces mortality in severe sepsis and septic shock from the first hour: results from a guideline-based performance improvement program. Crit Care Med. 2014 Aug;42(8):1749-55. doi: 10.1097/CCM.0000000000000330. PMID: [24717459](http://pubmed.gov/24717459)
+ * [707 citations at Scholar](https://scholar.google.com/scholar?cites=17880318823555719615&as_sdt=2005&sciodt=0,5&hl=en) (search 10/05/2019)
 
-Mehta D, Wafa S, Ward DE, Camm AJ. Relative efficacy of various physical manoeuvres in the termination of junctional tachycardia. Lancet. 1988.PMID: [2897005](http://pubmed.gov/2897005).
- * [105 citations ](https://scholar.google.com/scholar?cites=7605211014335624801) (search 6/19/2017)
+Puskarich MA, Trzeciak S, Shapiro NI, Arnold RC, Horton JM, Studnek JR, Kline JA, Jones AE; Emergency Medicine Shock Research Network (EMSHOCKNET). Association between timing of antibiotic administration and mortality from septic shock in patients treated with a quantitative resuscitation protocol. Crit Care Med. 2011 Sep;39(9):2066-71. doi: 10.1097/CCM.0b013e31821e87ab. PMID: [21572327](http://pubmed.gov/21572327)
+ * [299 citations at Scholar](https://scholar.google.com/scholar?cites=8350354413426419216&as_sdt=2005&sciodt=0,5&hl=en) (search 10/05/2019)
 
-
-### Searching 'random*' within the highly cited studies using Google Scholar
-Mehta et al. (search date 4/21/2017)
-* [12 citations](https://scholar.google.com/scholar?q=random&btnG=&hl=en&as_sdt=0%2C5&sciodt=0%2C5&cites=7605211014335624801&scipsc=1) (limited to citing articles containing random\*)
-* [x additional studies found](https://pubmed.gov/25503625,27045252)
