@@ -9,11 +9,22 @@ Cohorts of [sepsis] that compare [antibiotics within one hour] to antibiotics ad
 ## PubMed
 ### Boolean term searching
 
-Not searched
+
+[lung cancer AND tomography AND random\*](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) since 2000. 
+* Retrieves [all 9 articles](https://www.ncbi.nlm.nih.gov/pubmed/?term=26485620+25760561+28377492+31360863+31162856+30937431+25372087+29496251+29496251) in hand (100% sensitivity)
+
+#### Search 05/26/2019
+[lung cancer AND tomography AND random\*](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) since 2017 (date of Snowsell systematic review). 
+* [278](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222017%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) total citations found (search 05/26/2019)
+   * No additional studies included
 
 ### Vector searching ('Related citations' search)
 Seed articles: PMIDs [16625125,21572327,20048677,24589043,25651372,19696442,24717459,25375775,30779916,31343474](https://www.ncbi.nlm.nih.gov/pubmed/?linkname=pubmed_pubmed&from_uid=16625125,21572327,20048677,24589043,25651372,19696442,24717459,25375775,30779916,31343474)
-* No addition studies identified
+
+#### Search 05/26/2019
+Seed articles: PMIDs [25372087,25760561,26485620,28377492,25783198,30937431](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&tool=SUMSearch2plugins&otool=kumclib&term=25372087,25760561,26485620,28377492,25783198,30937431)
+* [303 citations](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=25372087,25760561,26485620,28377492,25783198,30937431&term=2017[pdat]) when above limited to years 2017 - present (time period since Snowsill review) (search 05/26/2019)
+   * No additional studies included
 
 ## ClinicalTrials.gov
 
