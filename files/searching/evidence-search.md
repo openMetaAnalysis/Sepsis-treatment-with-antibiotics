@@ -10,7 +10,8 @@ Cohorts of [sepsis] that compare [antibiotics within one hour] to antibiotics ad
 ### Boolean term searching
 
 
-[lung cancer AND tomography AND random\*](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) since 2000. 
+[o	Sepsis[MeSH Terms]) OR severe sepsis[MeSH Terms]) OR septic shock[MeSH Terms]) AND antibiotics[MeSH Terms]) OR agents, antimicrobial[MeSH Terms]
+o	Filter clinical study, clinical trial, from 2015, adult, humans*](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) since 2000. 
 * Retrieves [all 9 articles](https://www.ncbi.nlm.nih.gov/pubmed/?term=26485620+25760561+28377492+31360863+31162856+30937431+25372087+29496251+29496251) in hand (100% sensitivity)
 
 #### Search 05/26/2019
