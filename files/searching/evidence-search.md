@@ -9,23 +9,19 @@ Cohorts of [sepsis] that compare [antibiotics within one hour] to antibiotics ad
 ## PubMed
 ### Boolean term searching
 
+(Sepsis[MeSH Terms]) OR severe sepsis[MeSH Terms] OR septic shock[MeSH Terms]) AND (antibiotics[MeSH Terms] OR agents, antimicrobial[MeSH Terms])
+*	[Filter none, from 2000, adult, humans*](https://pubmed.ncbi.nlm.nih.gov/?term=(Sepsis[MeSH%20Terms]%20OR%20severe%20sepsis[MeSH%20Terms]%20OR%20septic%20shock[MeSH%20Terms])%20AND%20(antibiotics[MeSH%20Terms]%20OR%20agents,%20antimicrobial[MeSH%20Terms])%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) since 2000. 
+* Retrieves [10 of 12 articles](http://pubmed.gov/28528569,28345952,16625125,31343474,20048677,31622578,25651372,28169944,21572327,24589043,25375775,32337048,) in hand (83% sensitivity)
+* Missed [Ascuntar and Bloos](http://pubmed.gov/32337048,24589043)
 
-[o	Sepsis[MeSH Terms]) OR severe sepsis[MeSH Terms]) OR septic shock[MeSH Terms]) AND antibiotics[MeSH Terms]) OR agents, antimicrobial[MeSH Terms]
-o	Filter clinical study, clinical trial, from 2015, adult, humans*](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) since 2000. 
-* Retrieves [all 9 articles](https://www.ncbi.nlm.nih.gov/pubmed/?term=26485620+25760561+28377492+31360863+31162856+30937431+25372087+29496251+29496251) in hand (100% sensitivity)
-
-#### Search 05/26/2019
-[lung cancer AND tomography AND random\*](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) since 2017 (date of Snowsell systematic review). 
-* [278](https://www.ncbi.nlm.nih.gov/pubmed?term=((lung%20cancer%20AND%20tomography%20AND%20random*))%20AND%20(%222017%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) total citations found (search 05/26/2019)
-   * No additional studies included
+#### Search 06/22/2020
+(Sepsis[MeSH Terms]) OR severe sepsis[MeSH Terms] OR septic shock[MeSH Terms]) AND (antibiotics[MeSH Terms] OR agents, antimicrobial[MeSH Terms]) since 201X (date of ______ systematic review). 
+* [16,889](https://pubmed.ncbi.nlm.nih.gov/?term=(Sepsis[MeSH%20Terms]%20OR%20severe%20sepsis[MeSH%20Terms]%20OR%20septic%20shock[MeSH%20Terms])%20AND%20(antibiotics[MeSH%20Terms]%20OR%20agents,%20antimicrobial[MeSH%20Terms])%20AND%20(%222000%22%5BDate%20-%20Publication%5D%20%3A%20%223000%22%5BDate%20-%20Publication%5D)) total citations found (search 06/22/2020)
+   * Search refinements pending
 
 ### Vector searching ('Related citations' search)
-Seed articles: PMIDs [16625125,21572327,20048677,24589043,25651372,19696442,24717459,25375775,30779916,31343474](https://www.ncbi.nlm.nih.gov/pubmed/?linkname=pubmed_pubmed&from_uid=16625125,21572327,20048677,24589043,25651372,19696442,24717459,25375775,30779916,31343474)
 
-#### Search 05/26/2019
-Seed articles: PMIDs [25372087,25760561,26485620,28377492,25783198,30937431](https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&tool=SUMSearch2plugins&otool=kumclib&term=25372087,25760561,26485620,28377492,25783198,30937431)
-* [303 citations](https://www.ncbi.nlm.nih.gov/pubmed?linkname=pubmed_pubmed&from_uid=25372087,25760561,26485620,28377492,25783198,30937431&term=2017[pdat]) when above limited to years 2017 - present (time period since Snowsill review) (search 05/26/2019)
-   * No additional studies included
+No longer supported by PubMed
 
 ## ClinicalTrials.gov
 
